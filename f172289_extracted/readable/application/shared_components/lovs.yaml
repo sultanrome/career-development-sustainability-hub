@@ -1,0 +1,41 @@
+---
+- # ====== List of Values: STUDENTS.NAME =======================
+  id: 163520460177845568581
+  identification: 
+    name: STUDENTS.NAME
+
+  subscription: 
+    version-number: 15762965230994
+
+  source: 
+    location: Local Database
+    type: Table / View
+    table-owner: Parsing Schema
+    table-name: STUDENTS
+
+  column-mapping: 
+    return: STUDENT_ID
+    display: NAME
+    default-sort: NAME
+    sort-direction: Ascending (Nulls Last)
+
+- # ====== List of Values: OPPORTUNITIES.TITLE =================
+  id: 163520460336873568582
+  identification: 
+    name: OPPORTUNITIES.TITLE
+
+  subscription: 
+    version-number: 15762965231039
+
+  source: 
+    location: Local Database
+    type: Table / View
+    table-owner: Parsing Schema
+    table-name: OPPORTUNITIES
+
+  column-mapping: 
+    return: OPP_ID
+    display: TITLE
+    default-sort: TITLE
+    sort-direction: Ascending (Nulls Last)
+

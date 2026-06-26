@@ -1,0 +1,91 @@
+---
+- # ====== Breadcrumb: Breadcrumb ==============================
+  id: 163510943945900092914
+  identification: 
+    name: Breadcrumb
+
+  entries: 
+  - # ====== Entry: Home =========================================
+    id: 163510944152626092914
+    identification: 
+      name: Home
+      page-number: 1
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:1:&APP_SESSION.::&DEBUG.:::'
+        page: 1 # Home
+
+  - # ====== Entry: OPPORTUNITIES ================================
+    id: 163517795222759192701
+    identification: 
+      name: OPPORTUNITIES
+      page-number: 2
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:2:&APP_SESSION.::&DEBUG.:::'
+        page: 2 # OPPORTUNITIES
+
+  - # ====== Entry: STUDENTS =====================================
+    id: 163518238851010200256
+    identification: 
+      name: STUDENTS
+      page-number: 4
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:4:&APP_SESSION.::&DEBUG.:::'
+        page: 4 # STUDENTS
+
+  - # ====== Entry: APPLICATIONS =================================
+    id: 163520459458453568491
+    identification: 
+      name: APPLICATIONS
+      page-number: 8
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:8:&APP_SESSION.::&DEBUG.:::'
+        page: 8 # APPLICATIONS
+
+  - # ====== Entry: SUSTAINABILITY ===============================
+    id: 163520796996431572725
+    identification: 
+      name: SUSTAINABILITY
+      page-number: 12
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:12:&APP_SESSION.::&DEBUG.:::'
+        page: 12 # SUSTAINABILITY
+
+  - # ====== Entry: Apply for Opportunity ========================
+    id: 163539967959080603181
+    identification: 
+      name: Apply for Opportunity
+      page-number: 14
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:14:&APP_SESSION.::&DEBUG.:::'
+        page: 14 # Apply for Opportunity
+
